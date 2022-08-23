@@ -1,0 +1,39 @@
+.center {
+    display: block;
+    margin: auto auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2.5em;
+}
+button {
+    background-color: rgb(115, 140, 241);
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000; 
+    border-radius: 4px;
+    padding: 6px 24px;
+    margin-top: 1rem;
+}
+.add {
+    background-color: rgb(246, 233, 218);
+    color: black;
+    border: 2px solid #95ff00; 
+}
+.clear {
+    background-color: rgb(246, 233, 218);
+    color: black;
+    border: 2px solid darkblue;
+}
+
+.tasks {
+    border: 1px dashed rgb(218, 147, 182);
+    border-radius: 2px;
+    padding: 2px 6px;
+    text-align: center;
+    margin: auto auto;
+    min-width: 10px;
+}
